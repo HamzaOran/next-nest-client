@@ -6,8 +6,8 @@ const SignoutButton = () => {
   const { data: session } = useSession();
   if (session?.user) {
     return (
-      <div className="flex gap-4 ml-auto">
-        <p className="text-sm tracking-tight text-white">
+      <div className="flex justify-center items-center gap-4 ml-auto">
+        <p className="text-sm tracking-tight text-black">
           {session.user.name}
         </p>
         <button onClick={() => signOut()}>Sign Out</button>
