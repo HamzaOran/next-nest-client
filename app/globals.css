@@ -1,6 +1,10 @@
+@import url('https://cdn.syncfusion.com/ej2/material.css');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
 
 :root {
   --foreground-rgb: 0, 0, 0;
