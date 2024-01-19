@@ -2,12 +2,14 @@ import React from 'react';
 import SignoutButton from './SignoutButton';
 import Image from 'next/image';
 import Container from './Container';
+import Link from 'next/link';
 
 const Appbar = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50  gap-4 p-4 bg-gradient-to-b from-zinc-200 to-zinc-100 shadow backdrop-blur-sm">
       <Container>
 <div className='flex justify-between'>
+ <Link href="/">
  
       <Image
         className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
@@ -17,6 +19,7 @@ const Appbar = () => {
         height={37}
         priority
         />
+        </Link>
       <SignoutButton />
         </div>
         </Container>
