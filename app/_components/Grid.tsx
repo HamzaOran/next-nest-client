@@ -10,26 +10,26 @@ import {
   Filter,
   Group,
 } from '@syncfusion/ej2-react-grids';
-// import { datas } from "../datasource";
+ import { datas } from "../datasource";
 import { registerLicense } from '@syncfusion/ej2-base';
 import Container from './Container';
-import { DataManager } from '@syncfusion/ej2-data';
+// import { DataManager } from '@syncfusion/ej2-data';
 
 
 registerLicense(
   'Ngo9BigBOggjHTQxAR8/V1NAaF5cWWZCfEx3R3xbf1x0ZFZMZFRbRH5PMyBoS35RckViWHxednFUQmNUWUJ3'
 );
 
-export default function Grid() {
-    const data = new DataManager({
-        url: 'https://services.syncfusion.com/react/production/api/Orders'
-    });
+ export default function Grid() {
+//     const data = new DataManager({
+//         url: 'https://services.syncfusion.com/react/production/api/Orders'
+//     });
   return (
-    <div style={{ marginTop: '5%' }}>
+    <div style={{ marginTop: '7%' }}>
         <Container>
 
       <GridComponent
-        dataSource={data}
+        dataSource={datas}
         allowPaging={true}
         pageSettings={{ pageSize: 5 }}
         allowFiltering={true}
@@ -52,7 +52,7 @@ export default function Grid() {
             field="ShipCountry"
             headerText="Ship Country"
             textAlign="Right"
-            width="200"
+            width="100"
           />
           <ColumnDirective
             field="ShipName"

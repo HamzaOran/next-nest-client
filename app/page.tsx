@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Grid from './_components/Grid'
-import Container from './_components/Container'
+
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -19,7 +20,10 @@ export default function Home() {
       </div>
 
       <div className='mb-20 gap-20 text-white bg-black rounded-full p-3 text-lg w-40 flex justify-center items-center font-semibold'>
+        <Link href="/">
+        
           <button>Get Started</button>
+        </Link>
         </div>
 
       <div className="mb-20 relative flex place-items-center ">
