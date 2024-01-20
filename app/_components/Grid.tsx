@@ -57,6 +57,7 @@ import {
 import { DropDownListComponent, ChangeEventArgs } from '@syncfusion/ej2-react-dropdowns';
 import { data } from '../datasource';
 import { registerLicense } from '@syncfusion/ej2-base';
+import Container from './Container';
 
  registerLicense(
   'Ngo9BigBOggjHTQxAR8/V1NAaF5cWWZCfEx3R3xbf1x0ZFZMZFRbRH5PMyBoS35RckViWHxednFUQmNUWUJ3'
@@ -97,7 +98,7 @@ function Grid() {
   let checkboxFilter = { type: 'CheckBox' } as const; 
 
   return (
-    <>
+    <Container>
       <div>
         <div>
           <label>Select row rendering mode :</label>
@@ -143,7 +144,7 @@ function Grid() {
          
         </div>
       </div>
-    </>
+    </Container>
   );
 }
 
