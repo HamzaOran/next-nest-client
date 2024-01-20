@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@auth/supabase-adapter": "^0.1.16",
+    "@syncfusion/ej2-react-dropdowns": "^24.1.46",
     "@syncfusion/ej2-react-grids": "^24.1.46",
     "add": "^2.0.6",
     "jsonwebtoken": "^9.0.2",

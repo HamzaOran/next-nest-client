@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import Grid from './_components/Grid'
+import Grid from "./_components/Grid"
 
 import Link from 'next/link'
 
@@ -26,7 +26,7 @@ export default function Home() {
         </Link>
         </div>
 
-      <div className="mb-20 relative flex place-items-center ">
+      <div className="mb-20 flex flex-col items-center justify-center md:flex-row md:gap-8 ">
         <Image
           
           src="/next.svg"
@@ -45,7 +45,7 @@ export default function Home() {
         />
       </div>
 
-      <div className="mb-32 flex text-center items-center justify-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-2 lg:text-left">
+      <div className="mb-32 flex flex-col text-center items-center justify-center lg:max-w-5xl lg:w-full lg:mb-0 md:flex-row lg:text-left">
         <a
           href="https://nextjs.org/"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
@@ -81,7 +81,10 @@ export default function Home() {
         </a>
 
       </div>
+      <div>
+
         <Grid/>
+      </div>
         
     </main>
   )
