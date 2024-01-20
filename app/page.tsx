@@ -10,7 +10,7 @@ export default function Home() {
 
       
       <div className="z-10 max-w-5xl w-full items-center justify-center font-mono ">
-        <p className=' mt-20 text-6xl text-center'>Fullstack Nextjs and Nestjs Mini Data Grid Project</p>
+        <p className=' mt-20 text-3xl md:text-6xl text-center'>Fullstack Nextjs and Nestjs Mini Data Grid Project</p>
         <p className=" mt-20 text-center pb-6 pt-8   ">
            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet laborum, blanditiis obcaecati, nostrum vitae tenetur beatae explicabo ab quis hic sequi provident aperiam. Aspernatur officia dolor fugiat quidem perspiciatis. Dolorum!
           
