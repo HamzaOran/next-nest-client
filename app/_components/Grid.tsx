@@ -101,7 +101,7 @@ function Grid() {
     <Container>
       <div>
         <div>
-          <label>Select row rendering mode :</label>
+          
           <DropDownListComponent index={0} width={150} dataSource={dropDownData} change={changeAlignment}></DropDownListComponent>
         </div>
         <div className="e-adaptive-demo e-bigger">

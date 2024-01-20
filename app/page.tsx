@@ -11,7 +11,7 @@ export default function Home() {
       
       <div className="z-10 max-w-5xl w-full items-center justify-center font-mono ">
         <p className=' mt-20 text-3xl md:text-6xl text-center'>Fullstack Nextjs and Nestjs Mini Data Grid Project</p>
-        <p className=" mt-20 text-center pb-6 pt-8   ">
+        <p className=" mt-20 text-center text-xl pb-6 pt-8   ">
            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet laborum, blanditiis obcaecati, nostrum vitae tenetur beatae explicabo ab quis hic sequi provident aperiam. Aspernatur officia dolor fugiat quidem perspiciatis. Dolorum!
           
         </p>
@@ -26,7 +26,7 @@ export default function Home() {
         </Link>
         </div>
 
-      <div className="mb-20 flex flex-col items-center justify-center md:flex-row md:gap-8 ">
+      <div className="my-20 flex flex-col items-center justify-center md:flex-row gap-8 md:gap-8 ">
         <Image
           
           src="/next.svg"
@@ -45,7 +45,7 @@ export default function Home() {
         />
       </div>
 
-      <div className="mb-32 flex flex-col text-center items-center justify-center lg:max-w-5xl lg:w-full lg:mb-0 md:flex-row lg:text-left">
+      <div className="mb-32 flex flex-col text-center  justify-center lg:max-w-5xl lg:w-full lg:mb-0 md:flex-row lg:text-left font-mono">
         <a
           href="https://nextjs.org/"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
@@ -81,7 +81,12 @@ export default function Home() {
         </a>
 
       </div>
-      <div>
+      <div className='mt-8'>
+
+      <p className=" mt-10 text-center text-xl pb-6 pt-8  max-w-5xl font-mono ">
+      Essential JS 2 for React is a modern React UI Components library that has been built from the ground up to be lightweight, responsive, modular and touch friendly.
+          
+        </p>
 
         <Grid/>
       </div>
